@@ -1,0 +1,7 @@
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+nm-applet &
+nitrogen --restore &
+xfce4-power-manager &
+sleep 3 && picom --animations --experimental-backends &
+sleep 5 && ~/.config/polybar/launch.sh &
+sleep 8 && plank &
